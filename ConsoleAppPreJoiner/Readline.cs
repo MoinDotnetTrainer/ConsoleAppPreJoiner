@@ -40,6 +40,11 @@ namespace ConsoleAppPreJoiner
             //0-255
             // > 255
             Console.WriteLine("x1 is :" + x1);
+
+
+            Console.WriteLine("Enter Float Value!!");
+            float f = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine(f);
         }
     }
 }

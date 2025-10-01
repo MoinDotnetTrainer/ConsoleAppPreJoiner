@@ -16,7 +16,12 @@ namespace ConsoleAppPreJoiner
             //  DataTypes obj = new DataTypes();
             // obj.Test();
 
-            Readline obj = new Readline();
+            //Readline obj = new Readline();
+            // obj.Test();
+
+            // Parsing obj = new Parsing();
+            // obj.Test1();
+            Arrays obj = new Arrays();
             obj.Test();
         }
     }
