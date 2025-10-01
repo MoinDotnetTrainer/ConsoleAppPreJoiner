@@ -30,6 +30,10 @@ namespace ConsoleAppPreJoiner
 
             // array is of type reference type  , no fixed len
             int[] arr1 = new int[5] { 435, 456, 6, 45, 56 };
+            for (int i = 0; i < arr1.Length; i++)
+            {
+                Console.WriteLine(arr1[i]);
+            }
 
         }
     }

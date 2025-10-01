@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 namespace ConsoleAppPreJoiner
 {
     internal class Program
@@ -21,8 +22,25 @@ namespace ConsoleAppPreJoiner
 
             // Parsing obj = new Parsing();
             // obj.Test1();
-            Arrays obj = new Arrays();
-            obj.Test();
+
+           //   Arrays obj = new Arrays();
+            //  obj.Test();
+
+            //// int? x = null;
+            // Console.WriteLine(x);
+            // Console.WriteLine(x.GetValueOrDefault());
+
+            // Condtional obj = new Condtional();
+            // obj.Test();
+
+            //   Login obj = new Login();
+            //  obj.Test();
+
+            // Switch obj = new Switch();
+            // obj.Test();
+
+           Looping obj = new Looping();
+           obj.Test1();
         }
     }
 }
