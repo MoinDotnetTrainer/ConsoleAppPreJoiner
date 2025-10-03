@@ -21,9 +21,9 @@ namespace ConsoleAppPreJoiner
             Console.WriteLine("mul");
         }
 
-        public void div()  // obj , instance memeber
-        {
-            Console.WriteLine("div");
-        }
+        //public void div()  // obj , instance memeber
+        //{
+        //    Console.WriteLine("div");
+        //}
     }
 }

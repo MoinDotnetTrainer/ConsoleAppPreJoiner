@@ -77,29 +77,43 @@ namespace ConsoleAppPreJoiner
             */
 
 
-           /* StaticMethodEx.Add();// one instance
-            StaticMethodEx.Sub();
+            /* StaticMethodEx.Add();// one instance
+             StaticMethodEx.Sub();
 
-            StaticMethodEx.Add();  // same instance profram executes
-            StaticMethodEx.Sub();
+             StaticMethodEx.Add();  // same instance profram executes
+             StaticMethodEx.Sub();
 
-            StaticMethodEx obj = new StaticMethodEx();// obj memory allocated
-            obj.mul();
+             StaticMethodEx obj = new StaticMethodEx();// obj memory allocated
+             obj.mul();
 
-            StaticMethodEx obj1 = new StaticMethodEx(); // obj1 another instance of memory 
-            obj1.mul();
+             StaticMethodEx obj1 = new StaticMethodEx(); // obj1 another instance of memory 
+             obj1.mul();
 
-            StaticMethodEx obj2 = new StaticMethodEx();
-            obj2.mul();
-           */
+             StaticMethodEx obj2 = new StaticMethodEx();
+             obj2.mul();
+            */
 
 
-            StaticClassEx.Add();
-            StaticClassEx.sub();
-            StaticClassEx.mul();
+            //StaticClassEx.Add();
+            //StaticClassEx.sub();
+            //StaticClassEx.mul();
 
-            
+            // Constr obj = new Constr("test");            
 
+            MultipleReturnTypes obj = new MultipleReturnTypes();
+            int x;
+            string y;
+            (x, y) = obj.M3();
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            var result = obj.Calculate(4, 5);
+            Console.WriteLine($"Sum: {result.sum}, Product: {result.product}");
+
+            obj.MyCal(32, 3, out int sum1, out int Product1);
+            Console.WriteLine($"Sum1: {sum1}, Product1: {Product1}");
+
+            obj.Test(3456,456,45,7567,65,83);
+            obj.Orders();
         }
     }
 }
