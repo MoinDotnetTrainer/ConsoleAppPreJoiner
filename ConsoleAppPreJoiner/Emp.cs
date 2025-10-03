@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleAppPreJoiner
+{
+    partial class Employee
+    {
+        public void UsersData() {
+            Console.WriteLine("Users Data");
+        }
+    }
+}

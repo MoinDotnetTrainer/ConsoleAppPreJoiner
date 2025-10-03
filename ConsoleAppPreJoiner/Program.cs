@@ -100,20 +100,35 @@ namespace ConsoleAppPreJoiner
 
             // Constr obj = new Constr("test");            
 
-            MultipleReturnTypes obj = new MultipleReturnTypes();
-            int x;
-            string y;
-            (x, y) = obj.M3();
-            Console.WriteLine(x);
-            Console.WriteLine(y);
-            var result = obj.Calculate(4, 5);
-            Console.WriteLine($"Sum: {result.sum}, Product: {result.product}");
+            /*  MultipleReturnTypes obj = new MultipleReturnTypes();
+              int x;
+              string y;
+              (x, y) = obj.M3();
+              Console.WriteLine(x);
+              Console.WriteLine(y);
+              var result = obj.Calculate(4, 5);
+              Console.WriteLine($"Sum: {result.sum}, Product: {result.product}");
 
-            obj.MyCal(32, 3, out int sum1, out int Product1);
-            Console.WriteLine($"Sum1: {sum1}, Product1: {Product1}");
+              obj.MyCal(32, 3, out int sum1, out int Product1);
+              Console.WriteLine($"Sum1: {sum1}, Product1: {Product1}");
 
-            obj.Test(3456,456,45,7567,65,83);
-            obj.Orders();
+              obj.Test(3456,456,45,7567,65,83);
+              obj.Orders();
+            */
+
+            /* Employee obj = new Employee();
+             obj.UsersData();
+             obj.ProjectData();
+            */
+
+           
+
+            Sub s = new Sub();
+            s.Subtraction();
+            s.Add();
+
+            Mul m = new Mul();
+            m.Multiplication();
         }
     }
 }
