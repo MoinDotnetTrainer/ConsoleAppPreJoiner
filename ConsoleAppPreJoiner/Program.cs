@@ -53,17 +53,53 @@ namespace ConsoleAppPreJoiner
             //ClassSample obj1 = new ClassSample();
             //obj1.Add();
 
-            ReturnTypeExample obj = new ReturnTypeExample();
-            obj.Add();
-            int res = obj.Sub();  // return
-            if (res == 100)
-            {
-                Console.WriteLine("do this");
-            }
-            else
-            {
-                Console.WriteLine(" do that");
-            }
+            /* ReturnTypeExample obj = new ReturnTypeExample();
+             obj.Add();
+             int res = obj.Sub();  // return
+             if (res == 100)
+             {
+                 Console.WriteLine("do this");
+             }
+             else
+             {
+                 Console.WriteLine(" do that");
+             }
+            */
+
+            // Debug obj = new Debug();
+            // obj.Test1();
+
+            /*   MethodOverLoad obj = new MethodOverLoad();
+               obj.M1();
+               obj.M1(12.43);
+               obj.M1(21);
+               obj.M1("hello");
+            */
+
+
+           /* StaticMethodEx.Add();// one instance
+            StaticMethodEx.Sub();
+
+            StaticMethodEx.Add();  // same instance profram executes
+            StaticMethodEx.Sub();
+
+            StaticMethodEx obj = new StaticMethodEx();// obj memory allocated
+            obj.mul();
+
+            StaticMethodEx obj1 = new StaticMethodEx(); // obj1 another instance of memory 
+            obj1.mul();
+
+            StaticMethodEx obj2 = new StaticMethodEx();
+            obj2.mul();
+           */
+
+
+            StaticClassEx.Add();
+            StaticClassEx.sub();
+            StaticClassEx.mul();
+
+            
+
         }
     }
 }
