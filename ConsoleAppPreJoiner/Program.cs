@@ -121,14 +121,24 @@ namespace ConsoleAppPreJoiner
              obj.ProjectData();
             */
 
-           
 
-            Sub s = new Sub();
-            s.Subtraction();
-            s.Add();
 
-            Mul m = new Mul();
-            m.Multiplication();
+            /* 
+             Sub s = new Sub();
+             s.Subtraction();
+             s.Add();
+
+             Mul m = new Mul();
+             m.Multiplication();
+            */
+
+            RBIBanking obj = new RBIBanking();
+            obj.Withdraw();
+            obj.Deposite();
+            obj.StaffInfo();
+
+            SBI s = new SBI();
+            s.Withdraw();
         }
     }
 }

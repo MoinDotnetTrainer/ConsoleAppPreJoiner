@@ -11,7 +11,5 @@ namespace ConsoleAppPreJoiner
         public void Test() {
             Console.WriteLine("this is from Class1 test function");
         }
-
-       
     }
 }
