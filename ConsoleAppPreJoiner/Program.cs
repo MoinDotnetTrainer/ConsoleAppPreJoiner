@@ -132,13 +132,33 @@ namespace ConsoleAppPreJoiner
              m.Multiplication();
             */
 
-            RBIBanking obj = new RBIBanking();
-            obj.Withdraw();
-            obj.Deposite();
-            obj.StaffInfo();
+            /*   RBIBanking obj = new RBIBanking();
+               obj.Withdraw();
+               obj.Deposite();
+               obj.StaffInfo();
 
-            SBI s = new SBI();
-            s.Withdraw();
+               SBI s = new SBI();
+               s.Withdraw();
+            */
+
+
+            //  Accounts acc = new Accounts();
+            // acc.Details();
+
+
+            /*    IAccounts ca = new CurrentAccounts_();
+                MyAccounts acc = new MyAccounts(ca);
+                acc.Ops();  // current data
+
+                IAccounts sa = new SavingAccounts_();
+                MyAccounts acc1 = new MyAccounts(sa);
+                acc1.Ops();// saving data
+            */
+
+            ISAS obj = new ISAS();
+            obj.Test1();
+
+
         }
     }
 }
