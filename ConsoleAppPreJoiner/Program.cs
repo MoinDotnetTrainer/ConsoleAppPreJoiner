@@ -195,20 +195,37 @@ namespace ConsoleAppPreJoiner
             //    Console.WriteLine(ex.Message);
             //}
 
-            try
-            {
-                Indexers ix = new Indexers();
-                ix[0] = 45;
+            //try
+            //{
+            //    Indexers ix = new Indexers();
+            //    ix[0] = 45;
 
-                ix[1] = 23;
-                Console.WriteLine(ix[0]);
-                Console.WriteLine(ix[1]);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-           
+            //    ix[1] = 23;
+            //    Console.WriteLine(ix[0]);
+            //    Console.WriteLine(ix[1]);
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+
+            //Generics generics = new Generics();
+            //generics.Test(32,35);
+            //generics.Test1<int,string>(23,"Test");
+            //generics.Test1<bool,bool>(true,false);
+
+            //generics.Test2<double>(34.45);
+            //generics.Test2<float>(34.45f);
+
+            //GenericsClass<int, string> obj = new GenericsClass<int, string>();
+            //obj.M1(23, "Test");
+            //obj.M2(56, "Hi");
+
+
+
+            Collections obj = new Collections();
+            obj.NonGeneric();
 
         }
     }
