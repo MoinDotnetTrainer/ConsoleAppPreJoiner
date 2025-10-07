@@ -179,8 +179,36 @@ namespace ConsoleAppPreJoiner
             //obj.Call();
 
 
-            Exceptions obj= new Exceptions();
-            obj.Division();
+            //Exceptions obj= new Exceptions();
+            //obj.Division();
+
+
+            //try
+            //{
+            //    Properties obj = new Properties();
+            //    obj.x_ = 3;
+            //    obj.y_ = 67;
+            //    obj.Add();
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            try
+            {
+                Indexers ix = new Indexers();
+                ix[0] = 45;
+
+                ix[1] = 23;
+                Console.WriteLine(ix[0]);
+                Console.WriteLine(ix[1]);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+           
 
         }
     }
