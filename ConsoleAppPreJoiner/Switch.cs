@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppPreJoiner
 {
-    internal class Switch
+    public class SwitchClass
     {
         public void Test() {
             // in Switch as per user choice the block will be executed

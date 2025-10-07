@@ -31,7 +31,7 @@ namespace ConsoleAppPreJoiner
     {
         // Insted of Creating object , we will inject
         public readonly IAccounts _account;
-        public MyAccounts(IAccounts account) // Dependency Injection
+        public MyAccounts(IAccounts account) //sa , ca Dependency Injection
         {
             _account = account;
         }

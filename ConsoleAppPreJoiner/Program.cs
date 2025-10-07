@@ -1,5 +1,7 @@
 ﻿using System;
-using System.Diagnostics;
+using System.Diagnostics; //pre define
+using ClassLibrary1;  // user define
+
 namespace ConsoleAppPreJoiner
 {
     internal class Program
@@ -146,18 +148,39 @@ namespace ConsoleAppPreJoiner
             // acc.Details();
 
 
-            /*    IAccounts ca = new CurrentAccounts_();
-                MyAccounts acc = new MyAccounts(ca);
-                acc.Ops();  // current data
+            /*  IAccounts ca = new CurrentAccounts_();
+              MyAccounts acc = new MyAccounts(ca);
+              acc.Ops();  // current data
 
-                IAccounts sa = new SavingAccounts_();
-                MyAccounts acc1 = new MyAccounts(sa);
-                acc1.Ops();// saving data
-            */
+              IAccounts sa = new SavingAccounts_();
+              MyAccounts acc1 = new MyAccounts(sa);
+              acc1.Ops();// saving data
+          */
 
-            ISAS obj = new ISAS();
-            obj.Test1();
 
+
+            //ISAS obj = new ISAS();
+            //obj.Test1();
+
+
+
+            //AccentureEmp obj = new AccentureEmp();
+            //obj.Staff();
+            //obj.Trainers();
+            //obj.PreJoiners();
+            //obj.HR();
+
+
+            //Orders orders = new Orders();
+            //orders.OrdersDetails(); 
+            //orders.CustomerDetails();
+
+            //RefExample obj = new RefExample();
+            //obj.Call();
+
+
+            Exceptions obj= new Exceptions();
+            obj.Division();
 
         }
     }
