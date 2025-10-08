@@ -224,9 +224,43 @@ namespace ConsoleAppPreJoiner
 
 
 
-            Collections obj = new Collections();
-            obj.NonGeneric();
+            //Collections obj = new Collections();
+            //obj.NonGeneric();
 
+
+            Delegates obj = new Delegates();
+            //obj.Add();
+            //Delegates.Sub();
+            //obj.Mul(23,34);
+            //Delegates.Div(3,4);
+
+
+            // single cast
+
+            Call1 c1 = new Call1(obj.Add);
+            c1.Invoke();  // exposing 
+
+            Call1 c2 = new Call1(Delegates.Sub);
+            c2.Invoke();
+
+            Call2 c3 = new Call2(obj.Mul);
+            c3.Invoke(34, 34);
+
+            Call2 c4 = new Call2(Delegates.Div);
+            c4.Invoke(34, 34);
+
+            // single cast & multi cast delegates
+
+
+            // Multi cast
+            Call1 x = new Call1(obj.Add);
+            x += new Call1(Delegates.Sub);
+            x.Invoke();
+
+
+            Call2 y = new Call2(obj.Mul);
+            y += new Call2(Delegates.Div);
+            y.Invoke(34, 45);
         }
     }
 }
